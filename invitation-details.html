@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="icon" type="image/png" href="images/logo.png" />
+      <meta name="description" content="Prestige web site" />
+      <link rel="apple-touch-icon" href="images/logo.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style-ar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <title>Prestige</title>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+
+
+      <!-- start navbar -->
+      <header>
+        <div class="container navbar-container">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <img class="navbar-brand logo" src="images/logo.png" alt="site-logo"/>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
+                  <div></div>
+                <form class="d-flex">
+                  <input class="form-control mx-2 search-input" type="search" placeholder="What are you looking for ?" aria-label="Search">
+                  <button class="btn search-btn" type="submit">Search</button>
+                  <a class="sign-in " href="login.html">Sign In</a> 
+                </form>
+
+                <div class="d-flex align-items-center invitation-details" style="position: relative;">
+
+                  <a href="my-invitations.html"><i class="fas fa-shopping-cart fa-lg icon"></i></a>
+                  <a class="mx-2" href="favorite-page.html"><i class="fas fa-heart fa-lg icon"></i></a>
+                  <a href="profile-page.html" class="mx-2"><i class="fas fa-user fa-lg icon"></i></a>
+                  <div>
+                      <div class="lang-city d-inline-block">
+                          <a class  href="#" ><img src="images/saudi-arabia.svg" width="50px" alt=""></a>
+                          <ul class="list-unstyled lang-city-menu ">
+                              <li style="overflow: hidden;">
+                              <label class="title"> <p>Ship to</p></label>
+                              <select class="form-select" aria-label="Default select example">
+                                  <option selected>Country</option>
+                                  <option value="1">Egypt</option>
+                                  <option value="2">UAE</option>
+                                  <option value="3">Saudi</option>
+                              </select>
+                              <select class="form-select" aria-label="Default select example">
+                                  <option selected>City</option>
+                                  <option value="1">Cairo</option>
+                                  <option value="2">Cairo</option>
+                                  <option value="3">Cairo</option>
+                              </select>
+                              </li>
+                              <li>
+                              <label class="title"> <p>Language</p></label>
+  
+                              <input type="radio" >
+                              <label for="" class="choice">Egypt</label>
+                              <input type="radio">
+                              <label class="choice">عربي</label>
+                              <a href="#" class="save">Save & Continue</a>
+                              </li>
+                              
+                          </ul>
+                      </div>
+                      <a class="btn-lang " href="#">عربي</a> |
+                      <a class="btn-lang m-0" href="#">English</a> 
+                  </div>
+                </div>
+                
+                
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="menu-catgory">
+            <div class="container">
+              <nav class="navbar navbar-expand-lg  ">
+                  <div class="container-fluid">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav   mb-lg-0 ul-vav align-items-center menu">
+                        <li class="nav-item">
+                            <a class="nav-link active menu-link" aria-current="page" href="index.html" >Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  menu-link" href="my-cards.html" >My Cards</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link menu-link" href="contact.html">Contact Us</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle menu-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="sub-categorie.html">Birthdays</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Love</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Electronics</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Accessories</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Mobile</a></li>
+                                <li><a class="dropdown-item" href="restaurants.html">Invitations</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  menu-link" href="policy.html" >Usage Policy</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link menu-link" href="about.html">About Us</a>
+                          </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+        </div>
+      </header>
+      <!-- end navbar -->
+
+        <div class="shopping-cart-page">
+            <div class="container py-3 recipient-details invitation-details ">
+                <div class="header-page py-3">
+                    <h2>Invitation Details</h2>
+                   
+                </div>
+                <form action="" class="my-4">
+                    <h4> Invited People</h4>
+                  <div class="mb-4">
+                      <input type="text" class=""  placeholder="Names" required>
+                  </div>
+                  <div class="mb-4">
+                      <strong class="country-code">+966 </strong>
+                      <input type="text" class="input-phone"  placeholder="Phone number" required>
+                  </div>
+                  <!-- <div class="mb-4" style="position: relative;">
+                      <select class="select form-select-lg mb-3" aria-label=".form-select-lg example">
+                          <option selected>City</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                      </select>
+                      <span class="span1"><i class="fas fa-chevron-down "></i></span>
+                        
+                      <select class="select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Area</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <span class="span2"><i class="fas fa-chevron-down "></i></span>
+                  </div> -->
+                  <div class="mb-4" style="position: relative;">
+                    <span class="add-icon"><i class="fas fa-plus-circle fa-lg"></i></span>
+                    <input type="text" class="add-input"  placeholder="Add" required>
+                  </div>
+                  <div class="mb-4 row align-items-center">
+                    <div class="col-6">
+                        <h4>Number of Peoples</h4>
+                    </div>
+                    <div class="col-6">
+                        <div class="number text-center my-2 ">                        
+                            <div id="input_div">
+                            <span  id="moins" class="minus" onclick="minus()">-</span>
+                            <input type="text " size="25" value="1" id="count">
+                            <span  id="plus" class="plus" onclick="plus()">+</span>
+                            </div>         
+                        </div> 
+                    </div>
+                  </div>
+                  <div class="pb-4 row align-items-center invitees">
+                    <div class="col-6">
+                        <h4>Are you in the invitees </h4>
+                    </div>
+                    <div class="col-6 text-center">
+                        <label class="switch">
+                            <input type="checkbox" >
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                  </div>
+
+
+                  <div class="my-4 " >
+                    <h4>Invitation Date</h4>
+                    <div class=" py-3">
+                        <form action="#">
+                            <p class="m-0">
+                              <input type="radio" id="test1" name="radio-group" checked>
+                              <label for="test1">Open Invitation </label>
+                              <p class="text-muted" style="padding-left: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, eum.</p>
+                              
+                            </p>
+                            <p>
+                              <input type="radio" id="test2" name="radio-group" onclick="dateSelect()">
+                              <label for="test2">Select Date</label>
+                            </p>
+                          </form>
+                    </div>
+                    <div class="mb-4" id="show-date" style="display: none;">
+                        <p class="choose-receiving">Choose Receiving Date & Time :</p>
+                        <div class="inputdate-div">
+                          <input type="date" name="" id="" placeholder="Recciving Date">
+                        </div>
+                        <div class="inputdate-div">
+                          <input type="time" name="" id="" placeholder="Recciving Date">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="order_now_basket mt-4">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="cont ">
+                            <div class="order_btn text-center m-2">
+                                <a href="gift-card-restaurant.html"><button>Continue</button></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="py-5">
+          <div class="container">
+            <img src="images/logo.png" alt="site-logo">
+            <ul class="list-inline mt-3">
+              <li class="list-inline-item p-2"><a href="#"><i class="fab fa-facebook-f follow-icon follow-icon-1"></i> </a></li>
+              <li class="list-inline-item p-2"><a href="#"><i class="fab fa-instagram follow-icon follow-icon-2"></i> </a></li>
+              <li class="list-inline-item p-2"><a href="#"><i class="fab fa-twitter follow-icon follow-icon-3"></i> </a></li>  
+            </ul>
+          </div>
+        </footer>
+        <!-- end footer -->
+        
+        <!-- right reserved -->
+        <section class="text-center end ">
+          <div class="container">
+            <p class="m-0 p-2">
+              <a href="https://www.tec-soft.net/" target="_blank" rel="noopener">
+                All Right Reserved &copy; for <img src="images/logo.png" alt="site-logo" width="50px">  Design by <span style="color: #FF8038;" class="fw-bold">Tech Soft</span> Company
+              </a>
+            </p>
+          </div>
+        </section>
+        <script>
+            var selectDate=document.getElementById("show-date");
+            function dateSelect(){
+                if(selectDate.style.display="none"){
+                    selectDate.style.display="block";
+                }
+                else{
+                    selectDate.style.display="none";
+                }
+            }
+        </script>
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+      </body>
+</html>

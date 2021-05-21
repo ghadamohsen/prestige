@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="icon" type="image/png" href="images/logo.png" />
+      <meta name="description" content="Prestige web site" />
+      <link rel="apple-touch-icon" href="images/logo.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style-ar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Prestige</title>
+    </head>
+    <body class="my-cards">
+
+      <!-- start navbar -->
+      <header>
+        <div class="container navbar-container">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <img class="navbar-brand logo" src="images/logo.png" alt="site-logo"/>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
+                  <div></div>
+                <form class="d-flex">
+                  <input class="form-control mx-2 search-input" type="search" placeholder="What are you looking for ?" aria-label="Search">
+                  <button class="btn search-btn" type="submit">Search</button>
+                  <a class="sign-in " href="login.html">Sign In</a> 
+                </form>
+
+                <div class="d-flex align-items-center" style="position: relative;">
+
+                  <a href="all-shopping-cart.html"><i class="fas fa-shopping-cart fa-lg icon"></i></a>
+                  <a class="mx-2" href="favorite-page.html"><i class="fas fa-heart fa-lg icon"></i></a>
+                  <a href="profile-page.html" class="mx-2"><i class="fas fa-user fa-lg icon"></i></a>
+                  <div>
+                      <div class="lang-city d-inline-block">
+                            <a class  href="#" ><img src="images/saudi-arabia.svg" width="50px" alt=""></a>
+                          <ul class="list-unstyled lang-city-menu ">
+                              <li style="overflow: hidden;">
+                              <label class="title"> <p>Ship to</p></label>
+                              <select class="form-select" aria-label="Default select example">
+                                  <option selected>Country</option>
+                                  <option value="1">Egypt</option>
+                                  <option value="2">UAE</option>
+                                  <option value="3">Saudi</option>
+                              </select>
+                              <select class="form-select" aria-label="Default select example">
+                                  <option selected>City</option>
+                                  <option value="1">Cairo</option>
+                                  <option value="2">Cairo</option>
+                                  <option value="3">Cairo</option>
+                              </select>
+                              </li>
+                              <li>
+                              <label class="title"> <p>Language</p></label>
+  
+                              <input type="radio" >
+                              <label for="" class="choice">Egypt</label>
+                              <input type="radio">
+                              <label class="choice">عربي</label>
+                              <a href="#" class="save">Save & Continue</a>
+                              </li>
+                              
+                          </ul>
+                      </div>
+                      <a class="btn-lang " href="#">عربي</a> |
+                      <a class="btn-lang m-0" href="#">English</a> 
+                  </div>
+                </div>
+                
+                
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="menu-catgory">
+            <div class="container">
+              <nav class="navbar navbar-expand-lg  ">
+                  <div class="container-fluid">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav   mb-lg-0 ul-vav align-items-center menu">
+                        <li class="nav-item">
+                            <a class="nav-link active menu-link" aria-current="page" href="index.html" >Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  menu-link" href="my-cards.html" >My Cards</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link menu-link" href="contact.html">Contact Us</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle menu-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="sub-categorie.html">Birthdays</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Love</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Electronics</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Accessories</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Mobile</a></li>
+                                <li><a class="dropdown-item" href="restaurants.html">Invitations</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  menu-link" href="policy.html" >Usage Policy</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link menu-link" href="about.html">About Us</a>
+                          </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+        </div>
+      </header>
+      <!-- end navbar -->
+        <div class="container my-5 my-cards-content all-orders">
+            <div class="row text-center gift-invitation tab">
+                <div class="col-6 py-3 gifts">
+                    <a class="btn tablinks" onclick="openOrder(event, 'gift')"><strong>Sender</strong></a>
+                </div>
+                <div class="col-6 py-3 invitations">
+                    <a class="btn tablinks" onclick="openOrder(event, 'invitation')"><strong>Received</strong></a>
+                </div>
+            </div>  
+            <div id="gift" class="tabcontent ">
+                <div class=" p-3 cards-item">
+                    <h2 class="py-3">Gift Id: <span class="text-muted">201254887</span></h2>
+                    <div class="details">
+                      <div>
+                        <h3>Reciptient Details</h3>
+                        <ul class="list-unstyled text-muted" style="position: relative;">
+                            <li><span><i class="fas fa-user" ></i></span>Ahmed Ali</li>
+                            <li><span><i class="fas fa-phone" ></i></span>01001234567</li>
+                            <li><span><i class="fas fa-address-card" ></i></span>Egypt, Cairo</li>
+                            <li><span><i class="fas fa-calendar-alt" ></i></span>2 Sep 2020, 1 PM to 6 PM</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <video width="100%" height="100%"  controls controlsList="nodownload" class="d-block mb-5">
+                          <source src="vedio/HPD.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                        <video width="100%" height="100%"  controls controlsList="nodownload" class="d-block mb-5">
+                            <source src="vedio/HPD.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <h5>Message:</h5>
+                        <p class="text-muted">Happy Birthdays to YOU</p> 
+                        <br>
+                        <h5>Recipient's Message:</h5>
+                        <p class="text-muted">WOW,THANK YOU...</p>
+                        <a href="gift-order.html" class="view-order-details">View Order Details</a>
+
+                      </div>
+                    </div>
+                </div>
+                <div class=" p-3 cards-item">
+                  <h2 class="py-3">Invitation Id: <span class="text-muted">201254887</span></h2>
+                  <div class="details">
+                    <div>
+                      <h3>Reciptient Details</h3>
+                      <ul class="list-unstyled text-muted" style="position: relative;">
+                          <li><span><i class="fas fa-user" ></i></span>Ahmed Ali , Ali Ahmed , Mohammed Ali</li>
+                          <li><span><i class="fas fa-phone" ></i></span>01001234567</li>
+                          <li><span><i class="fas fa-address-card" ></i></span>Bab El Hara Restaurant, 6<sup>th</sup> of October</li>
+                          <li><span><i class="fas fa-calendar-alt" ></i></span>2 Sep 2020, 1 PM to 6 PM</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <video width="100%" height="100%"  controls controlsList="nodownload" class="d-block mb-5">
+                        <source src="vedio/HPD.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                      <video width="100%" height="100%"  controls controlsList="nodownload" class="d-block mb-5">
+                          <source src="vedio/HPD.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
+                      <h5>Message:</h5>
+                      <p class="text-muted">Happy Birthdays to YOU</p> 
+                      <br>
+                      <h5>Recipient's Message:</h5>
+                      <p class="text-muted">WOW,THANK YOU...</p>
+                      <a href="invitation-order.html" class="view-order-details">View Order Details</a>
+  
+                    </div>
+                  </div>
+                </div> 
+
+            </div>
+            <div id="invitation" class="tabcontent shopping-cart-page invitations">
+              <div class="gift-recevier text-center my-5 py-5">
+                <div class="logo">
+                    <a href="index.html"><img src="images/prestige (7)-page-001.jpg" class="p-5 " alt="site-logo"></a>
+                </div>
+                <h3 class="my-5">Your Gift Card</h3>
+                
+                <div class="gift-code p-5">
+                    <div class="code-id">
+                        <span class="text-muted">Code</span>
+                        <h5>215487</h5>
+                    </div>
+                    <div class="qr-code"> 
+                        <img src="images/qr_code_2-24px.png"  alt="">
+                    </div>
+                </div>
+                <div class="gift-content my-5">
+                    <h5>From:</h5>
+                    <ul class="list-inline text-muted">
+                        <li class="list-inline-item"><img src="images/ic_user.png" alt="user-icon"> Ahmed Ali</li>
+                        <li class="list-inline-item"><img src="images/watch_later-24px.png" alt="user-icon"> August 5, 2020</li>
+                        <li class="list-inline-item"><img src="images/receipt-24px.png" alt="user-icon"> #2552265</li>
+                    </ul>
+        
+                    <div style="position: relative;" class="pb-5">
+                        <h5  class="mt-5">Message:</h5>
+                        <p class="msg-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed corrupti magni, odit quas magnam veniam quod et. Corrupti, aspernatur laborum?</p>
+                        <span class="share-social">Share on : 
+                            <a href="#" class="whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                        </span>
+                    </div>
+        
+                    <div style="position: relative;" class="pb-5">
+                        <h5  class="mt-5">Videos: </h5>
+                        <video width="100%" height="100%"  controls controlsList="nodownload">
+                            <source src="vedio/HPD.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <span class="share-social">Share on : 
+                            <a href="#" class="whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                        </span>
+                        <span class="next-video"><i class="fas fa-chevron-circle-right fa-2x"></i></span>
+                    </div>
+                    
+                    <div style="position: relative;" class="pb-5">
+                        <h5 class="mt-5">Your Gift: </h5>
+                        <img src="images/img-gift.png" alt="gift-image" class="d-inline-block">
+                        <p class="d-inline-block">Michael Kors Gage Watch for Men - Analog Leather Band - MK8442</p>
+                        <span class="share-social">Share on : 
+                            <a href="#" class="whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                        </span>
+                    </div>
+                </div>
+                <div class="gift-replay p-4">
+                    <div class="replay-content py-5 px-2">
+                        <h4>Create a thank you message</h4>
+                        <input type="file" id="file" />
+                        <label for="file" class="text-muted" ><img src="images/camera_alt-24px.png" alt=""> Go Live Video</label> <br>
+        
+                        <input type="file" id="file" />
+                        <label for="file" class="text-muted" ><img src="images/camera_alt-24px.png" alt=""> Gift Image</label> <br>
+        
+                        <textarea name="" id="" placeholder="Replay... " class></textarea>
+                        <button class="d-block btn w-50 m-auto send-replay mt-3">Send</button>
+                    </div>
+                </div>
+                
+              </div>
+              <!-- === -->
+              <div class="gift-recevier text-center my-5 py-5">
+                <div class="logo">
+                    <a href="index.html"><img src="images/prestige (7)-page-001.jpg" class="p-5 " alt="site-logo"></a>
+                </div>
+                <h3 class="my-5">Your Gift Card</h3>
+                
+                <div class="gift-code p-5">
+                    <div class="code-id">
+                        <span class="text-muted">Code</span>
+                        <h5>215487</h5>
+                    </div>
+                    <div class="qr-code"> 
+                        <img src="images/qr_code_2-24px.png"  alt="">
+                    </div>
+                </div>
+                <div class="gift-content my-5">
+                    <h5>From:</h5>
+                    <ul class="list-inline text-muted">
+                        <li class="list-inline-item"><img src="images/ic_user.png" alt="user-icon"> Ahmed Ali</li>
+                        <li class="list-inline-item"><img src="images/watch_later-24px.png" alt="user-icon"> August 5, 2020</li>
+                        <li class="list-inline-item"><img src="images/receipt-24px.png" alt="user-icon"> #2552265</li>
+                    </ul>
+        
+                    <div style="position: relative;" class="pb-5">
+                        <h5  class="mt-5">Message:</h5>
+                        <p class="msg-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed corrupti magni, odit quas magnam veniam quod et. Corrupti, aspernatur laborum?</p>
+                        <span class="share-social">Share on : 
+                            <a href="#" class="whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                        </span>
+                    </div>
+        
+                    <div style="position: relative;" class="pb-5">
+                        <h5  class="mt-5">Videos: </h5>
+                        <video width="100%" height="100%"  controls controlsList="nodownload">
+                            <source src="vedio/HPD.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <span class="share-social">Share on : 
+                            <a href="#" class="whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                        </span>
+                        <span class="next-video"><i class="fas fa-chevron-circle-right fa-2x"></i></span>
+                    </div>
+                    
+                    <div style="position: relative;" class="pb-5">
+                        <h5 class="mt-5">Your Invitation: </h5>
+                        <div class="d-flex">
+                          <img src="images/gift-invitation.png" alt="gift-image" class="d-inline-block p-3" >
+                          <p class="d-inline-block mb-0" style="width: 70%;">El Horeya Restaurant <br> Opening Invitation<br> 
+                            <span class="text-muted">Valid for 7 days from 20/3/2021 <br> Ali , Ahmed , Ibraheem</span><br>
+                            <a href="https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D8%AA%D8%A7%D8%AC%E2%80%AD/@29.9599131,30.927797,17z/data=!3m1!4b1!4m5!3m4!1s0x1458571a627e64a7:0x85e44fcde90fca55!8m2!3d29.9599131!4d30.9299857"
+                              style="color: #5ec2a3;">
+                              <i class="fas fa-map-marker-alt"></i> See Location</a>
+                          </p>
+                        </div>
+                        <span class="share-social">Share on : 
+                            <a href="#" class="whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                        </span>
+                    </div>
+                </div>
+                <div class="gift-replay p-4">
+                    <div class="replay-content py-5 px-2">
+                        <h4>Create a thank you message</h4>
+                        <input type="file" id="file" />
+                        <label for="file" class="text-muted" ><img src="images/camera_alt-24px.png" alt=""> Go Live Video</label> <br>
+        
+                        <input type="file" id="file" />
+                        <label for="file" class="text-muted" ><img src="images/camera_alt-24px.png" alt=""> Gift Image</label> <br>
+        
+                        <textarea name="" id="" placeholder="Replay..."></textarea>
+                        <button class="d-block btn w-50 m-auto send-replay mt-3">Send</button>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        </div> 
+        
+      
+
+        <!-- Footer -->
+        <footer class="py-5">
+          <div class="container">
+            <img src="images/logo.png" alt="site-logo">
+            <ul class="list-inline mt-3">
+             <li class="list-inline-item p-2"><a href="#"><i class="fab fa-facebook-f follow-icon follow-icon-1"></i> </a></li>
+             <li class="list-inline-item p-2"><a href="#"><i class="fab fa-instagram follow-icon follow-icon-2"></i> </a></li>
+             <li class="list-inline-item p-2"><a href="#"><i class="fab fa-twitter follow-icon follow-icon-3"></i> </a></li>  
+            </ul>
+          </div>
+        </footer>
+        <!-- end footer -->
+        
+        <!-- right reserved -->
+        <section class="text-center end ">
+          <div class="container">
+            <p class="m-0 p-2">
+              <a href="https://www.tec-soft.net/" target="_blank" rel="noopener">
+                All Right Reserved &copy; for <img src="images/logo.png" alt="site-logo" width="50px">  Design by <span style="color: #FF8038;" class="fw-bold">Tech Soft</span> Company
+              </a>
+            </p>
+          </div>
+        </section>
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

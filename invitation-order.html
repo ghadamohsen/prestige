@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="icon" type="image/png" href="images/logo.png" />
+      <meta name="description" content="Prestige web site" />
+      <link rel="apple-touch-icon" href="images/logo.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style-ar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Prestige</title>
+    </head>
+    <body>
+
+
+      <!-- start navbar -->
+      <header>
+        <div class="container navbar-container">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <img class="navbar-brand logo" src="images/logo.png" alt="site-logo"/>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
+                  <div></div>
+                <form class="d-flex">
+                  <input class="form-control mx-2 search-input" type="search" placeholder="What are you looking for ?" aria-label="Search">
+                  <button class="btn search-btn" type="submit">Search</button>
+                  <a class="sign-in " href="login.html">Sign In</a> 
+                </form>
+
+                <div class="d-flex align-items-center" style="position: relative;">
+
+                  <a href="all-shopping-cart.html"><i class="fas fa-shopping-cart fa-lg icon"></i></a>
+                  <a class="mx-2" href="favorite-page.html"><i class="fas fa-heart fa-lg icon"></i></a>
+                  <a href="profile-page.html" class="mx-2"><i class="fas fa-user fa-lg icon"></i></a>
+                  <div>
+                      <div class="lang-city d-inline-block">
+                          <a class  href="#" ><img src="images/saudi-arabia.svg" width="50px" alt=""></a>
+                          <ul class="list-unstyled lang-city-menu ">
+                              <li style="overflow: hidden;">
+                              <label class="title"> <p>Ship to</p></label>
+                              <select class="form-select" aria-label="Default select example">
+                                  <option selected>Country</option>
+                                  <option value="1">Egypt</option>
+                                  <option value="2">UAE</option>
+                                  <option value="3">Saudi</option>
+                              </select>
+                              <select class="form-select" aria-label="Default select example">
+                                  <option selected>City</option>
+                                  <option value="1">Cairo</option>
+                                  <option value="2">Cairo</option>
+                                  <option value="3">Cairo</option>
+                              </select>
+                              </li>
+                              <li>
+                              <label class="title"> <p>Language</p></label>
+  
+                              <input type="radio" >
+                              <label for="" class="choice">Egypt</label>
+                              <input type="radio">
+                              <label class="choice">عربي</label>
+                              <a href="#" class="save">Save & Continue</a>
+                              </li>
+                              
+                          </ul>
+                      </div>
+                      <a class="btn-lang " href="#">عربي</a> |
+                      <a class="btn-lang m-0" href="#">English</a> 
+                  </div>
+                </div>
+                
+                
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="menu-catgory">
+            <div class="container">
+              <nav class="navbar navbar-expand-lg  ">
+                  <div class="container-fluid">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav   mb-lg-0 ul-vav align-items-center menu">
+                        <li class="nav-item">
+                            <a class="nav-link active menu-link" aria-current="page" href="index.html" >Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  menu-link" href="my-cards.html" >My Cards</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link menu-link" href="contact.html">Contact Us</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle menu-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="sub-categorie.html">Birthdays</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Love</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Electronics</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Accessories</a></li>
+                                <li><a class="dropdown-item" href="sub-categorie.html">Mobile</a></li>
+                                <li><a class="dropdown-item" href="restaurants.html">Invitations</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  menu-link" href="policy.html" >Usage Policy</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link menu-link" href="about.html">About Us</a>
+                          </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+        </div>
+      </header>
+      <!-- end navbar -->
+
+
+        <div class="container my-5 my-orders-page">
+            <div class="row d-flex flex-wrap justify-content-around">
+                <div class="col-lg-3 account_iformation my-3 p-3">
+                    <div class="profile_information_header d-flex justify-content-around align-items-center">
+                        <img src="images/user.png" class="">
+                        <div class="profile_information_text">
+                            <h3>User Name</h3>
+                            <p>atiaf.atiaf@atiaf.com</p>
+                        </div>
+                    </div>
+                    <div class="profile_list mt-4">
+                        <div class="profile_list_item my-4 d-flex justify-content-start align-items-center">
+                            <div class=" d-flex justify-content-center align-items-center ">
+                                <i class=" fa fa-shopping-bag fa-2x mx-3 icon"></i>
+                                <a href="my-orders.html">My Orders</a>
+                            </div>
+                   
+                        </div>
+                        <hr class="m-2">
+                        <div class="profile_list_item my-4 d-flex justify-content-start align-items-center">
+                            <div class=" d-flex justify-content-center align-items-center ">
+                                <i class="fas fa-heart fa-2x mx-3 icon"></i>
+                                <a href="favorite-page.html">Favrites</a>
+                            </div>
+                    
+                        </div>
+                
+                        <hr class="m-2">
+                        
+                        <div class="profile_list_item my-4 d-flex justify-content-start align-items-center">
+                            <div class=" d-flex justify-content-center align-items-center ">
+                                <i class="fas fa-sign-out-alt fa-2x mx-3 icon"></i>
+                                <a href="#">Log out</a>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+                <div class="col-lg-8 edit_profile my-3">
+                    <div class="py-3">
+                        <h4>OD45345345435</h4>
+                    </div>  
+                    <div id="gift">
+                        <article class="card">
+                            <div class="row card-header m-1">
+                                <div class="col-6">
+                                    <span class="text-muted">Order Date</span>
+                                    <h4 class>March 5,2021</h4>
+                                </div>
+                                 <div class="col-6">
+                                     <span class="text-muted">Grand Total</span>
+                                     <h4 class>00.00 SR</h4>
+                                 </div>
+                            </div>
+                             <div class="card-body">
+                                <div class="row m-2">
+                                    <div class="col-6">
+                                       <span class="text-muted">Invitation Date</span>
+                                       <h6 class="complete-text">Avaiable until March 5,2021</h6>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <span class="completed"><i class="fas fa-check-circle fa-lg mx-2"></i> Completed</span>
+                                    </div>
+                                </div>
+                                 <div class="row p-2" style="height: 100px;">
+                                     <div class="col-3 h-100 " style="position: relative;">
+                                         <img src="images/bg-3.png" class="w-100 h-100"  alt="">
+                                         <span class="num-span" style="position: absolute;">1x</span>
+                                     </div>
+                                     <div class="col-9">
+                                         <h6>Lorem ipsum dolor, sit amet consectetur adipisicing.</h6>
+                                         <h5 class="m-0">00.00 SR</h5>
+
+                                     </div>
+                                 </div>
+                                 <div class="recipient  py-3 px-2">
+                                    <h3>Reciptient Details</h3>
+                                    <ul class="list-unstyled text-muted" style="position: relative;">
+                                        <span><i class="fas fa-user"></i></span>
+                                        <li>Ahmed Ali,01001234567</li>
+                                        <li>Ahmed Ali,01001234567</li>
+                                        <li class="my-2"><strong>People Invited : 2</strong></li>
+                                    </ul>
+                                 </div>
+                                 <div class="payment px-2 py-3">
+                                    <h3>Payment Summary</h3>
+                                    <div class="row">
+                                        <ul class="col list-unstyled text-muted ">
+                                            <li>Payment Mode</li>
+                                            <li>grand total</li>
+                                        </ul>
+                                        <ul class="col list-unstyled fw-bold">
+                                            <li>Credit Card</li>
+                                            <li>00.00 SR</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row p-2" style="height: 100px;">
+                                    <div class="col-3 h-100 " style="position: relative;">
+                                        <img src="images/bg-6.png" class="w-100 h-100"  alt="">
+                                        <span class="num-span" style="position: absolute;">1x</span>
+                                    </div>
+                                    <div class="col-9">
+                                        <h6>Lorem ipsum</h6>
+                                        <h5 class="m-0 text-muted"><i class="fas fa-map-marker-alt fa-lg my-2"></i> Lorem ipsum dolor sit amet.</h5>
+                                        <div class="rate-stars ">
+                                           <a href="rate-gift.html">
+                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i>
+                                           </a>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                         </article>
+
+                    </div>
+
+                </div>
+            </div> 
+        </div>
+      
+
+        <!-- Footer -->
+        <footer class="py-5">
+          <div class="container">
+            <img src="images/logo.png" alt="site-logo">
+            <ul class="list-inline mt-3">
+             <li class="list-inline-item p-2"><a href="#"><i class="fab fa-facebook-f follow-icon follow-icon-1"></i> </a></li>
+             <li class="list-inline-item p-2"><a href="#"><i class="fab fa-instagram follow-icon follow-icon-2"></i> </a></li>
+             <li class="list-inline-item p-2"><a href="#"><i class="fab fa-twitter follow-icon follow-icon-3"></i> </a></li>  
+            </ul>
+          </div>
+        </footer>
+        <!-- end footer -->
+        
+        <!-- right reserved -->
+        <section class="text-center end ">
+          <div class="container">
+            <p class="m-0 p-2">
+              <a href="https://www.tec-soft.net/" target="_blank" rel="noopener">
+                All Right Reserved &copy; for <img src="images/logo.png" alt="site-logo" width="50px">  Design by <span style="color: #FF8038;" class="fw-bold">Tech Soft</span> Company
+              </a>
+            </p>
+          </div>
+        </section>
+        <script>
+            var btnGift= document.getElementById("gift");
+            var btnInvitaion= document.getElementById("invitation");
+            function clickOrder(){
+
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
